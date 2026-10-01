@@ -11,7 +11,7 @@ import {
 import styles from './app.module.scss';
 
 export const App = () => {
-	// Храним применённые настройки
+	// Хранение применённых настроек
 	const [articleState, setArticleState] =
 		useState<ArticleStateType>(defaultArticleState);
 
